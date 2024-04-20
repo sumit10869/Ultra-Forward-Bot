@@ -1,11 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
 from os import environ 
 from config import Config
 import motor.motor_asyncio
@@ -177,16 +169,3 @@ class Database:
        return self.nfy.find({})
      
 db = Database(Config.DB_URL, Config.DB_NAME)
-
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
