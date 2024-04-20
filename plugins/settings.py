@@ -533,8 +533,8 @@ async def filters_buttons(user_id):
             InlineKeyboardButton('✅' if filters['sticker'] else '❌', callback_data=f'settings#updatefilter-sticker-{filters["sticker"]}')
         ],
         [
-            InlineKeyboardButton('▶️ Skip Duplicate', callback_data=f'settings#updatefilter-duplicate-{filter["duplicate"]}'),
-            InlineKeyboardButton('✅' if filter['duplicate'] else '❌', callback_data=f'settings#updatefilter-duplicate-{filter["duplicate"]}')
+            InlineKeyboardButton('▶️ Skip Duplicate', callback_data=f'settings#updatefilter-duplicate-{filters["duplicate"]}'),
+            InlineKeyboardButton('✅' if filters['duplicate'] else '❌', callback_data=f'settings#updatefilter-duplicate-{filters["duplicate"]}')
         ],
         [
             InlineKeyboardButton('🔙 back', callback_data="settings#main")
