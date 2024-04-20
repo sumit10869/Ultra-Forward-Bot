@@ -1,6 +1,7 @@
 import asyncio 
 from database import db
 from config import Config
+from aiogram import Bot, types
 from translation import Translation
 from pyrogram import Client, filters
 from .test import get_configs, update_configs, CLIENT, parse_buttons
